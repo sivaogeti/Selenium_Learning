@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-13T16:38:48 IST" name="Amazon Test Framework Suite" finished-at="2025-06-13T16:38:58 IST" duration-ms="9760">
+    <groups>
+    </groups>
+    <test started-at="2025-06-13T16:38:48 IST" name="Amazon Tests" finished-at="2025-06-13T16:38:58 IST" duration-ms="9760">
+      <class name="tests.AmazonSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AmazonSearchTest@245b4bdc]" started-at="2025-06-13T16:38:52 IST" name="setUp" finished-at="2025-06-13T16:38:54 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchAndClickProduct()[pri:0, instance:tests.AmazonSearchTest@245b4bdc]" started-at="2025-06-13T16:38:54 IST" name="testSearchAndClickProduct" finished-at="2025-06-13T16:38:58 IST" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAndClickProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonSearchTest@245b4bdc]" started-at="2025-06-13T16:38:58 IST" name="tearDown" finished-at="2025-06-13T16:38:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AmazonSearchTest -->
+      <class name="tests.AmazonLoginpageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AmazonLoginpageTest@402bba4f]" started-at="2025-06-13T16:38:48 IST" name="setUp" finished-at="2025-06-13T16:38:51 IST" duration-ms="2616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logintest()[pri:0, instance:tests.AmazonLoginpageTest@402bba4f]" started-at="2025-06-13T16:38:51 IST" name="logintest" finished-at="2025-06-13T16:38:52 IST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginpageTest@402bba4f]" started-at="2025-06-13T16:38:52 IST" name="tearDown" finished-at="2025-06-13T16:38:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AmazonLoginpageTest -->
+    </test> <!-- Amazon Tests -->
+  </suite> <!-- Amazon Test Framework Suite -->
+</testng-results>
