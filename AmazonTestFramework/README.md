@@ -4,7 +4,7 @@ This is a Java-based Selenium automation framework for testing key functionaliti
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - Java 11+
 - Selenium WebDriver
