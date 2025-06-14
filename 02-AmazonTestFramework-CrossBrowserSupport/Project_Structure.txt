@@ -1,0 +1,13 @@
+|── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── pages/                ← page classes
+│   └── test/
+│       ├── java/
+│       │   └── base/               ← BaseTest.java
+│       │   └── utils/               
+│       │       └── ConfigReader.java      ← ConfigReader.java
+│       │       └── BrowserFactory.java      ← BrowserFactory.java
+|       |    └── tests	   	← Tests   
+│       └── resources/
+│           └── config.properties    ← properties file
