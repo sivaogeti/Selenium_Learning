@@ -40,8 +40,8 @@ Searching products
 Adding product to Cart
 
 # Cross-Browser support
-chrome
-Firefox
+chrome,
+Firefox,
 Microsoft Edge
 
 # How to Run Tests
