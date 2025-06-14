@@ -13,7 +13,7 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() {
         WebDriverManager.chromedriver().setup();
-        driver = (WebDriver) new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.in/");
     }
@@ -21,7 +21,7 @@ public class BaseTest {
     @AfterMethod
     public void tearDown() {
         if (driver != null) {
-            //driver.quit();
+            driver.quit();
         }
     }
 }
