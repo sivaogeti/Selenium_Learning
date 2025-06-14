@@ -10,4 +10,4 @@
 │       │       └── BrowserFactory.java      ← BrowserFactory.java
 |       |    └── tests	   	← Tests   
 │       └── resources/
-│           └── config.properties    ← properties file
+│           └── config.json    ← properties file
