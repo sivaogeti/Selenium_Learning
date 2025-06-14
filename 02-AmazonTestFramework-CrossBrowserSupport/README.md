@@ -1,4 +1,4 @@
-#  Amazon Automated Web Testing Framework
+#  Amazon Automated Web Testing Framework(Cross browser Functionality)
 
 This is a Java-based Selenium automation framework designed to test key functionalities of the Amazon India website. 
 It leverages TestNG for test management and Maven for project build and dependency management.
@@ -35,14 +35,15 @@ username=your_emailid
 password=your_password
 
 # Functionalities\Modules Automated
-Logging
-Searching products
-Adding product to Cart
+- Logging
+- Searching products
+- Adding product to Cart
 
 # Cross-Browser support
-chrome
-Firefox
-Microsoft Edge
+- chrome
+- Firefox
+- Microsoft Edge
+  
 
 # How to Run Tests
 we can run entire test suite using "mvn test"
