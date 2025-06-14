@@ -8,7 +8,7 @@ This is a Java-based Selenium automation framework for testing key functionaliti
 
 - Java 11+
 - Selenium WebDriver
-- TestNG****
+- TestNG
 - Maven
 - WebDriverManager
 - Page Object Model (POM) Design Pattern
