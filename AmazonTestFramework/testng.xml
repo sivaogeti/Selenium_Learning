@@ -1,9 +1,0 @@
-<suite name="Amazon Test Framework Suite">
-    <test name="Amazon Tests">
-        <classes>
-            <class name="tests.AmazonLoginpageTest"/>>
-            <class name="tests.AmazonSearchTest"/>
-            <class name="tests.AmazonCartTest"/>              
-        </classes>
-    </test>
-</suite>
