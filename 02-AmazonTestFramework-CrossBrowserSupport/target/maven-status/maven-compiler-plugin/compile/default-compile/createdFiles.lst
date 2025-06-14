@@ -1,0 +1,8 @@
+com\amazon\AmazonTestFramework\App.class
+pages\LoginPage.class
+utils\BrowserFactory.class
+pages\CartPage.class
+pages\HomePage.class
+pages\CheckoutPage.class
+utils\ConfigReader.class
+pages\SearchResultsPage.class

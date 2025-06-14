@@ -1,0 +1,6 @@
+base\BaseTest.class
+tests\AmazonCartTest.class
+tests\AmazonSearchTest.class
+tests\AmazonLoginpageTest.class
+utils\ConfigReader.class
+com\amazon\AmazonTestFramework\AppTest.class
