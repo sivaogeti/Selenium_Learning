@@ -1,0 +1,11 @@
+|── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── pages/                ← page classes
+│   └── test/
+│       ├── java/
+│       │   └── utils/               ← ConfigReader.java
+│       │       └── ConfigReader.java
+|       |    └── tests	   	← Tests   
+│       └── resources/
+│           └── config.properties    ← properties file
