@@ -32,6 +32,11 @@ Edit src/test/resources/config.properties:
 username=your_emailid
 password=your_password
 
+# Functionalities\Modules Automated
+Logging
+Searching products
+Adding product to Cart
+
 # How to Run Tests
 we can run entire test suite using "mvn test"
 
