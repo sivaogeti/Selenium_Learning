@@ -35,14 +35,15 @@ username=your_emailid
 password=your_password
 
 # Functionalities\Modules Automated
-Logging
-Searching products
-Adding product to Cart
+- Logging
+- Searching products
+- Adding product to Cart
 
 # Cross-Browser support
-chrome,
-Firefox,
-Microsoft Edge
+- chrome
+- Firefox
+- Microsoft Edge
+  
 
 # How to Run Tests
 we can run entire test suite using "mvn test"
