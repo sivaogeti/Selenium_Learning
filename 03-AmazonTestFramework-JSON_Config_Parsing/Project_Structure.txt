@@ -1,13 +1,14 @@
 |── src/
 │   ├── main/
 │   │   └── java/
-│   │       └── pages/                ← page classes
+│       │   └── utils/               
+│       │       └── JConfigReader.java        ← JConfigReader.java
+│       │       └── BrowserFactory.java       ← BrowserFactory.java
+│       │       └── LocatorFactory.java       ← LocatorFactory.java
+│   │       └── pages/                        ← page classes
 │   └── test/
 │       ├── java/
-│       │   └── base/               ← BaseTest.java
-│       │   └── utils/               
-│       │       └── ConfigReader.java      ← ConfigReader.java
-│       │       └── BrowserFactory.java      ← BrowserFactory.java
-|       |    └── tests	   	← Tests   
+│       │   └── base/                         ← BaseTest.java
+|       |   └── tests	   	                    ← Tests   
 │       └── resources/
-│           └── config.json    ← properties file
+│           └── config.json                   ← properties file
