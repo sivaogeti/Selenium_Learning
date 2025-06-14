@@ -1,0 +1,6 @@
+base\BaseTest.class
+tests\AmazonCartTest.class
+tests\AmazonSearchTest.class
+tests\AmazonLoginpageTest.class
+CrossBrowserTest.class
+com\amazon\AmazonTestFramework\AppTest.class

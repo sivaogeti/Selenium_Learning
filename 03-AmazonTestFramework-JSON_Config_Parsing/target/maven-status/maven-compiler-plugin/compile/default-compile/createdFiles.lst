@@ -1,0 +1,8 @@
+utils\LocatorFactory.class
+com\amazon\AmazonTestFramework\App.class
+pages\LoginPage.class
+utils\BrowserFactory.class
+pages\CartPage.class
+pages\HomePage.class
+pages\SearchResultsPage.class
+utils\JsonConfigReader.class
