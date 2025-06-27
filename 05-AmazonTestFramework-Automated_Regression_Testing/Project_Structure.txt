@@ -1,23 +1,36 @@
-ProjectRoot/
-├── pom.xml
-├── testng.xml
-├── /src
-│   ├── /main
-│   │   └── /java
-│   │       └── /pages
-│   │           ├── BasePage.java
-│   │           ├── LoginPage.java
-│   │           ├── HomePage.java
-│   │           └── CartPage.java
-│   └── /test
-│       └── /java
-│           ├── /tests
-│           │   ├── LoginTests.java
-│           │   ├── SearchTests.java
-│           │   └── CheckoutTests.java
-│           └── /utilities
-│               ├── BaseTest.java
-│               ├── DriverFactory.java
-│               └── ConfigReader.java
-└── /resources
-    └── config.properties
+05-AmazonTestFramework-Automated_Regression_Testing/
+│
+├── pom.xml                        ← Maven config with Selenium, TestNG, Allure
+├── testng.xml                     ← Test suite config with Allure listener
+├── config.properties              ← Global config (browser, URL, etc.)
+├── README.md                      ← Project overview and usage instructions
+│
+├── run_allure_report.bat         ← Windows script to run tests + Allure
+├── run_allure_report.sh          ← Linux/macOS script to run tests + Allure
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── utils/
+│   │           ├── ConfigReader.java      ← Reads from config.properties
+│   │           └── DriverFactory.java     ← Manages WebDriver lifecycle
+│   │
+│   └── test/
+│       └── java/
+│           ├── base/
+│           │   └── BasePage.java          ← Common page methods
+│           │
+│           ├── pages/
+│           │   ├── LoginPage.java
+│           │   ├── HomePage.java
+│           │   └── CartPage.java
+│           │
+│           └── tests/
+│               ├── BaseTest.java          ← @Before/After setup + Allure listener
+│               ├── LoginTests.java
+│               ├── SearchTests.java
+│               └── CheckoutTests.java
+│
+└── target/
+    ├── allure-results/            ← ✨ Generated after test run if Allure listener is set
+    └── surefire-reports/          ← Default Maven test reports
