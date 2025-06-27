@@ -1,0 +1,23 @@
+ProjectRoot/
+├── pom.xml
+├── testng.xml
+├── /src
+│   ├── /main
+│   │   └── /java
+│   │       └── /pages
+│   │           ├── BasePage.java
+│   │           ├── LoginPage.java
+│   │           ├── HomePage.java
+│   │           └── CartPage.java
+│   └── /test
+│       └── /java
+│           ├── /tests
+│           │   ├── LoginTests.java
+│           │   ├── SearchTests.java
+│           │   └── CheckoutTests.java
+│           └── /utilities
+│               ├── BaseTest.java
+│               ├── DriverFactory.java
+│               └── ConfigReader.java
+└── /resources
+    └── config.properties

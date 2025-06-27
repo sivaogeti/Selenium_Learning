@@ -1,0 +1,45 @@
+{
+  "credentials": {
+    "username": "osnarayana@gmail.com",
+    "password": "OsMahaBujji@23"
+  },
+  "locators": {
+    "sign_link": {
+      "type": "id",
+      "value": "nav-link-accountList-nav-line-1"
+    },
+    "email_login": {
+      "type": "id",
+      "value": "ap_email_login"
+    },
+    "continue_link": {
+      "type": "className",
+      "value": "a-button-input"
+    },
+    "password_link": {
+        "type": "name",
+      "value": "password"
+    },
+    "signin_submit": {
+      "type": "id",
+      "value": "signInSubmit"
+    },
+    "searchpage_resultLinks": {
+      "type": "xpath",
+      "value": "//div[@data-component-type='s-search-result']"
+    },
+    "homepage_searchBox": {
+      "type": "name",
+      "value": "field-keywords"
+    },
+    "homepage_searchButton": {
+      "type": "id",
+      "value": "nav-search-submit-button"
+    },
+    "cart_page_resultLinks": {
+      "type": "xpath",
+      "value": "//div[@data-component-type='s-search-result']"
+    }
+  },
+  "baseUrl": "https://www.amazon.in"
+}
